@@ -1,10 +1,11 @@
 import React from 'react';
+import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
 
 // Data for the testimonials
 const testimonials = [
   {
     image: "man.jpg",
-    quote: 'With CogniAI, we transformed raw data into actionable insights, improving productivity, streamlining processes, and enhancing strategic planning.',
+    quote: 'With Thinkora, we transformed raw data into actionable insights, improving productivity, streamlining processes, and enhancing strategic planning.',
     name: 'Daniel Pierce',
     title: 'CEO Kiera.io',
     metric: '100%',
@@ -12,7 +13,7 @@ const testimonials = [
   },
   {
     image: "Woman.jpg",
-    quote: 'From raw data to real results, CogniAI boosts productivity, optimizes operations, and empowers smarter, data-driven business decisions with unmatched efficiency.',
+    quote: 'From raw data to real results, Thinkora boosts productivity, optimizes operations, and empowers smarter, data-driven business decisions with unmatched efficiency.',
     name: 'Saviera Joeal',
     title: 'Founder Lokalane.com',
     metric: '7x',
@@ -62,9 +63,9 @@ const Test = () => {
               Genuine feedback showcasing real success and customer satisfaction.
             </p>
           </div>
-          <a href="#" className="flex-shrink-0 bg-black text-white font-semibold py-3 px-6 rounded-full shadow-md hover:bg-gray-800 transition-colors">
+          <Link href="#" className="flex-shrink-0 bg-black text-white font-semibold py-3 px-6 rounded-full shadow-md hover:bg-gray-800 transition-colors">
             See All Testimonial
-          </a>
+          </Link>
         </div>
 
         {/* Testimonials */}

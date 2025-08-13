@@ -46,7 +46,7 @@ const Part = () => {
               How It Works
             </p>
             <h2 className="mt-2 text-3xl lg:text-4xl font-extrabold text-gray-900 tracking-tight">
-              Unlock the <span className="text-orange-500">Power of Your Data</span> with CogniAI
+              Unlock the <span className="text-orange-500">Power of Your Data</span> with Thinkora
             </h2>
             <p className="mt-4 text-lg text-gray-500">
               Organize tasks, track progress, and achieve more—effortlessly.

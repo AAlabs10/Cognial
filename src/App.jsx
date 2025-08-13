@@ -18,7 +18,12 @@ export default function App() {
       <Router>
         <Navbar />
         <Hero />
-        <Started />
+          <Routes>
+           <Route path="/test" element={<Test/>} />
+          </Routes>
+        </Router>
+        
+        {/* <Started />
         <Part />
         <Feature />
         <Case />
@@ -26,11 +31,9 @@ export default function App() {
         <Test />
         <Price />
         <Question />
-        <Footer />
-        <Routes>
-
-        </Routes>
-      </Router>
+        <Footer /> */}
+        
+         
     </div>
   )
 }

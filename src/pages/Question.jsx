@@ -4,24 +4,24 @@ import { FiPlus, FiMinus } from 'react-icons/fi';
 // FAQ data
 const faqs = [
   {
-    question: 'What is CogniAI?',
-    answer: 'Cognio AI is a powerful analytics platform that delivers AI-driven insights, enabling businesses to optimize performance, enhance efficiency, and make smarter, data-backed decisions effortlessly.',
+    question: 'What is Thinkora?',
+    answer: 'Thinkora is a powerful analytics platform that delivers AI-driven insights, enabling businesses to optimize performance, enhance efficiency, and make smarter, data-backed decisions effortlessly.',
   },
   {
-    question: 'What industries benefit from CogniAI?',
-    answer: 'CogniAI is versatile and benefits a wide range of industries including e-commerce, finance, marketing, healthcare, and more by providing tailored data analytics solutions.',
+    question: 'What industries benefit from Thinkora?',
+    answer: 'Thinkora is versatile and benefits a wide range of industries including e-commerce, finance, marketing, healthcare, and more by providing tailored data analytics solutions.',
   },
   {
-    question: 'Is my data secure with CogniAI?',
-    answer: 'Yes, we prioritize data security. CogniAI employs end-to-end encryption and complies with industry-standard security protocols to ensure your data is always protected.',
+    question: 'Is my data secure with Thinkora?',
+    answer: 'Yes, we prioritize data security. Thinkora employs end-to-end encryption and complies with industry-standard security protocols to ensure your data is always protected.',
   },
   {
     question: 'What kind of support is available?',
     answer: 'We offer comprehensive support including a detailed knowledge base, email support, and dedicated account managers for our enterprise clients to ensure you get the help you need.',
   },
   {
-    question: 'Does CogniAI offer a free trial?',
-    answer: 'Yes, CogniAI offers a free trial so you can experience the full power of our platform. You can also start with our free Basic Plan to explore essential features.',
+    question: 'Does Thinkora offer a free trial?',
+    answer: 'Yes, Thinkora offers a free trial so you can experience the full power of our platform. You can also start with our free Basic Plan to explore essential features.',
   },
 ];
 

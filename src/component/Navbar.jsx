@@ -8,7 +8,8 @@ const Navbar = () => {
     { href: '#', label: 'Work', isActive: false },
     { href: '#', label: 'Expertise', isActive: false },
     { href: '#', label: 'Pricing', isActive: false },
-    { href: '#', label: 'Testimonial', isActive: false },
+    { href: '#test', label: 'Testimonial', isActive: false },
+    
   ];
 
   return (
@@ -16,7 +17,7 @@ const Navbar = () => {
       <div className="container mx-auto flex justify-between items-center">
         {/* Logo */}
         <div className="text-2xl font-bold tracking-wide">
-          <a href="#">CogniAI</a>
+          <a href="#">Thinkora</a>
         </div>
 
         {/* Desktop Navigation */}
@@ -27,7 +28,7 @@ const Navbar = () => {
               href={link.href}
               className={`px-5 py-2 rounded-full text-sm font-medium ${
                 link.isActive
-                  ? 'bg-orange-500 text-white'
+                  ? 'bg-indigo-500 text-white'
                   : 'text-gray-600 hover:bg-gray-100'
               }`}
             >

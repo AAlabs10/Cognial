@@ -37,7 +37,7 @@ const Footer = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10">
           {/* Column 1: Brand and Description */}
           <div className="md:col-span-2 lg:col-span-1">
-            <h2 className="text-2xl font-bold text-gray-800">CogniAI</h2>
+            <h2 className="text-2xl font-bold text-gray-800">Thinkora</h2>
             <p className="mt-4 text-sm text-gray-500 leading-relaxed">
               Our intelligent platform provides real-time insights, predictive analytics, and automation to optimize performance and efficiency.
             </p>
@@ -71,7 +71,7 @@ const Footer = () => {
         {/* Bottom Bar: Copyright and Back to Top */}
         <div className="mt-12 pt-8 border-t border-gray-200/80 flex flex-col sm:flex-row justify-between items-center">
           <p className="text-sm text-gray-500 mb-4 sm:mb-0">
-            © {new Date().getFullYear()} CogniAI. All Rights Reserved.
+            © {new Date().getFullYear()} Thinkora. All Rights Reserved.
           </p>
           <button
             onClick={scrollToTop}

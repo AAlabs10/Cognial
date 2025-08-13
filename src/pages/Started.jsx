@@ -15,7 +15,7 @@ const Started = () => {
       <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
         {/* Main Heading */}
         <h1 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-gray-800 leading-tight">
-          CogniAI is an advanced <span className="text-orange-500">AI-powered data</span> analysis platform designed to <span className="text-orange-500">transform</span> raw data into actionable insights.
+          Thinkora is an advanced <span className="text-orange-500">AI-powered data</span> analysis platform designed to <span className="text-orange-500">transform</span> raw data into actionable insights.
         </h1>
 
         {/* Timeline Visualization */}
