@@ -1,14 +1,15 @@
 import React, { useState } from 'react';
+import { Link, Links } from 'react-router-dom';
 
 const Navbar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   const navLinks = [
-    { href: '#', label: 'Home', isActive: true },
+    { to: '/hero', label: 'Home', isActive: true },
     { href: '#', label: 'Work', isActive: false },
     { href: '#', label: 'Expertise', isActive: false },
     { href: '#', label: 'Pricing', isActive: false },
-    { href: '#test', label: 'Testimonial', isActive: false },
+    { to: '/test', label: 'Testimonial', isActive: false },
     
   ];
 
@@ -17,15 +18,15 @@ const Navbar = () => {
       <div className="container mx-auto flex justify-between items-center">
         {/* Logo */}
         <div className="text-2xl font-bold tracking-wide">
-          <a href="#">Thinkora</a>
+          <a href="/">Thinkora</a>
         </div>
 
         {/* Desktop Navigation */}
         <div className="hidden md:flex items-center bg-white shadow-sm rounded-full p-1">
           {navLinks.map((link) => (
-            <a
+            <Link
               key={link.label}
-              href={link.href}
+              to={link.to}
               className={`px-5 py-2 rounded-full text-sm font-medium ${
                 link.isActive
                   ? 'bg-indigo-500 text-white'
@@ -33,7 +34,7 @@ const Navbar = () => {
               }`}
             >
               {link.label}
-            </a>
+            </Link>
           ))}
         </div>
         
@@ -65,9 +66,9 @@ const Navbar = () => {
         <div className="md:hidden mt-4">
           <div className="flex flex-col items-center space-y-4">
             {navLinks.map((link) => (
-              <a
+              <Link
                 key={link.label}
-                href={link.href}
+                to={link.to}
                 className={`w-full text-center px-4 py-2 rounded-md text-base font-medium ${
                   link.isActive
                     ? 'bg-orange-500 text-white'
@@ -75,11 +76,11 @@ const Navbar = () => {
                 }`}
               >
                 {link.label}
-              </a>
+              </Link>
             ))}
-            <a href="#" className="w-full text-center bg-black text-white px-4 py-2 rounded-md text-base font-medium">
+            <Link href="#" className="w-full text-center bg-black text-white px-4 py-2 rounded-md text-base font-medium">
               Contact Us
-            </a>
+            </Link>
           </div>
         </div>
       )}

@@ -1,5 +1,6 @@
 import React from 'react';
 import { FaGoogle, FaInstagram, FaFacebook, FaTwitter } from 'react-icons/fa';
+import { Link } from 'react-router-dom';
 
 const Hero = () => {
   return (
@@ -15,12 +16,12 @@ const Hero = () => {
               Harness AI-driven analytics to transform complex data into clear, actionable insights. No coding required, just results.
             </p>
             <div className="mt-8">
-              <a
-                href="#"
+              <Link
+                to="/"
                 className="inline-block bg-black text-white font-semibold py-3 px-6 rounded-lg shadow-lg hover:bg-gray-800 transition-colors"
               >
                 Get Started for Free
-              </a>
+              </Link>
             </div>
             <div className="mt-10">
               <p className="text-sm text-gray-500 mb-2">More than 100+ companies partner</p>

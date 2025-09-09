@@ -1,5 +1,4 @@
 import React from 'react';
-import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
 
 // Data for the testimonials
 const testimonials = [
@@ -63,9 +62,9 @@ const Test = () => {
               Genuine feedback showcasing real success and customer satisfaction.
             </p>
           </div>
-          <Link href="#" className="flex-shrink-0 bg-black text-white font-semibold py-3 px-6 rounded-full shadow-md hover:bg-gray-800 transition-colors">
+          <a href="#" className="flex-shrink-0 bg-black text-white font-semibold py-3 px-6 rounded-full shadow-md hover:bg-gray-800 transition-colors">
             See All Testimonial
-          </Link>
+          </a>
         </div>
 
         {/* Testimonials */}
